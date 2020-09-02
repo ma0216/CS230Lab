@@ -1,0 +1,20 @@
+body{
+  background-color: lightgrey;
+  margin: 2em;
+}
+h1{
+  font-size: 3em;
+  color: red;
+}
+p{
+  font-size: 1.5em;
+  color: brown;
+}
+button{
+  margin-right: 2em;
+  height: 30px;
+}
+img{
+  margin-right: 2.5em;
+  height: 11em;
+}
