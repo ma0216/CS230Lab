@@ -1,0 +1,61 @@
+body{
+  background-color: lightgrey;
+  background-image: url("../images/login_bg.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin: 2em;
+}
+h1{
+  font-size: 3em;
+  color: red;
+}
+p{
+  font-size: 1.5em;
+  color: brown;
+}
+button{
+  margin-right: 2em;
+  height: 30px;
+}
+#icon{
+  margin-left: 8.5em;
+}
+.login-form{
+    margin: auto;
+    padding: 4.5%;
+    padding-bottom: 2%;
+    background: #4c91db;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form h3{
+    text-align: center;
+    color: #fff;
+}
+.btnSubmit{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    border: none;
+    cursor: pointer;
+}
+.login-form .btnSubmit{
+    font-weight: 600;
+    color: #0062cc;
+    background-color: #fff;
+    margin-left: 5em;
+}
+.login-form .ForgetPwd{
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 6.5em;
+}
+.carousel {
+    width: 70%;
+    height: 80%;
+    margin: auto;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
