@@ -7,7 +7,7 @@ require "includes/header.php"
     <div class="col-md-4 signup-form">
       <h3>Register</h3>
       <h6>Create your account.</h6><br>
-      <form action="includes/signup-helper.php">
+      <form action="includes/signup-helper.php" method="post">
         <div class="form-group">
           <input type="text" id="fname" class="form-control" name="fname" placeholder="First Name *" value="" required />
           <input type="text" id="lname" class="form-control" name="lname" placeholder="Last Name *" value="" required />
