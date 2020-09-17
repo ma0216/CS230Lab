@@ -1,0 +1,72 @@
+body{
+  background-color: lightgrey;
+  background-image: url("../images/login_bg.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin: 2em;
+}
+h1{
+  font-size: 3em;
+  color: red;
+}
+h6{
+  margin-left: 6em;
+}
+p{
+  font-size: 1.5em;
+  color: brown;
+}
+button{
+  margin-right: 2em;
+  height: 30px;
+}
+#icon{
+  margin-left: 9em;
+}
+#fname{
+  width: 45%;
+  display: inline;
+  margin-right: 1.8em;
+}
+#lname{
+  width: 45%;
+  display: inline;
+}
+.signup-form {
+  margin: auto;
+  margin-top: 2.1em;
+  padding: 4.5%;
+  padding-top: 3%;
+  padding-bottom: 1.5%;
+  background: #4c91db;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.signup-form h3{
+    text-align: center;
+    color: #fff;
+}
+.btnSubmit{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    border: none;
+    cursor: pointer;
+}
+.signup-form .btnSubmit{
+    font-weight: 600;
+    color: #0062cc;
+    background-color: #fff;
+    margin-left: 5em;
+}
+.signup-form .ForgetPwd{
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 1em;
+}
+.signup-form .forget-text{
+    color: #282828;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 3em;
+}
