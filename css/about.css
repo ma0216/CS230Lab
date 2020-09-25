@@ -1,5 +1,8 @@
 body{
   background-color: lightgrey;
+  background-image: url("../images/login_bg.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
   margin: 2em;
 }
 h1{
@@ -8,13 +11,14 @@ h1{
 }
 p{
   font-size: 1.5em;
-  color: brown;
+  color: white;
 }
 button{
   margin-right: 2em;
   height: 30px;
 }
-img{
+.about{
   margin-right: 2.3em;
+  margin-bottom: 9.1em;
   height: 11em;
 }
